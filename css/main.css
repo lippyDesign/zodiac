@@ -1,0 +1,82 @@
+body {
+    background: #f8f8f8;
+}
+header {
+    text-align: center;
+    font-weight: 200 !important;
+    font-family: "Times New Roman", Times, serif !important;
+}
+header h1 {
+    font-size: 70px;
+    font-weight: 200;
+    color: #B5651E;
+}
+header h2 {
+    font-size: 40px;
+    font-weight: 200;
+    color: rebeccapurple;
+}
+.signHeading {
+    display: flex;
+    justify-content: center;
+}
+.headingText {
+    padding: 0 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 200 !important;
+    font-family: "Times New Roman", Times, serif !important;
+}
+.headingText h1 {
+    font-size: 70px;
+    color: rebeccapurple;
+}
+.headingText h2 {
+    color: #B5651E;
+}
+.summaryImage {
+    width: 250px;
+    margin: 10px;
+}
+@media(max-width: 680px) {
+    .headingText h1 {
+        font-size: 30px;
+    }
+    .headingText h2 {
+        font-size: 20px;
+    }
+    .summaryImage {
+        width: 200px;
+    }
+}
+@media(max-width: 496px) {
+    .headingText h1 {
+        font-size: 24px;
+    }
+    .headingText h2 {
+        font-size: 18px;
+    }
+    .summaryImage {
+        width: 100px;
+        margin: 5px;
+    }
+}
+.statsList {
+    padding-left: 10px;
+}
+.statsList li {
+    list-style-type: none;
+}
+.statCategory, .statValue {
+    font-weight: bold;
+    color: #B5651E;
+}
+.statValue {
+    color: #0072C6;
+    margin-left: 5px;
+}
+.dates {
+    font-style: italic;
+}
