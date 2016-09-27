@@ -147,10 +147,87 @@ $(document).ready(function() {
     })
     // create home page
     $('.tab-content').append(`
-        <div id="home" class="tab-pane fade">
-            <h1>Home Page</h1>
+        <div id="home" class="tab-pane active homePage">
+            <img src="img/zodiac-chart.jpg" alt="zodiac chart">
+            <h3>Explore Your Destiny</h3>
+            <div class="zodiacFinder">
+                <h3>Don't know your zodiac sign?</h3>
+                <h4>Enter your birthday bellow<h4>
+                <div class="birthdaySelector">
+                    <form class="col-sm-6 col-sm-offset-3">
+                        <div class="form-group col-xs-6">
+                            <label for="month">Month:</label>
+                            <select class="form-control monthSelector" id="month"></select>
+                        </div>
+                        <div class="form-group col-xs-6 seeThrough" id="daySection">
+                            <label for="day">Day:</label>
+                            <select class="form-control daySelector disabled" id="day"></select>
+                        </div>
+                        <button class="col-xs-10 col-xs-offset-1 btn btn-success seeThrough" id="birthdayButton">Submit</button>
+                    </form>
+                </div>
+            </div>
         </div>
-    `)();
+    `);
+    // disable the day selector for now
+    $( "#day" ).prop( "disabled", true );
+    // disable the birthday submit button for now
+    $('.birthdayButton').prop('disabled', true);
+    // establish calendar var
+    const months = [
+        {month: 'Select month', numDays: 0},
+        {month: 'January', numDays: 31},
+        {month: 'February', numDays: 29},
+        {month: 'March', numDays: 31},
+        {month: 'April', numDays: 30},
+        {month: 'May', numDays: 31},
+        {month: 'June', numDays: 30},
+        {month: 'July', numDays: 31},
+        {month: 'August', numDays: 31},
+        {month: 'September', numDays: 30},
+        {month: 'October', numDays: 31},
+        {month: 'November', numDays: 30},
+        {month: 'December', numDays: 31},
+    ]
+    // add the birthday months and days to the month and day selectors on the home page
+    months.forEach( ({month}) => {
+        $('#month').append(`<option>${month}</option>`)
+    })
+    // when user selects their birthday month, we want to enable the day selector
+    $( ".monthSelector" ).change(function() {
+        let selectedMonth = this.value
+        if (selectedMonth !== 'Select month') {
+            // Enable day selector and make it visible
+            $( "#day" ).prop( "disabled", false )
+            $("#daySection").removeClass("seeThrough");
+            // Find out the number of days in the selected month and append them to the day secton
+            let selectedMonthVar = months.find( current => current.month === selectedMonth)
+            $('#day').append(`<option>Select day</option>`)
+            for (let i = 1; i <= selectedMonthVar.numDays; i++) {
+                $('#day').append(`<option>${i}</option>`)
+            }
+        } else {
+            // Disable day selector and make it seeThrough
+            $( "#day" ).prop( "disabled", true );
+            $("#daySection").addClass("seeThrough");
+            // remove all day options from the day selector
+            $( "#day" ).empty();
+            // disable and make seeThrough the submit button
+            $('.birthdayButton').prop('disabled', true);
+            $("#birthdayButton").addClass("seeThrough");
+        }
+    });
+    // when user selects day we want to enable the submit button and make it visible
+    $( ".daySelector" ).change(function() {
+        let selectedDay = this.value
+        if (selectedDay !== 'Select day') {
+            $('.birthdayButton').prop('disabled', false);
+            $("#birthdayButton").removeClass("seeThrough");
+        } else {
+            $('.birthdayButton').prop('disabled', true);
+            $("#birthdayButton").addClass("seeThrough");
+        }
+    })
     // distracture the needed propertied for each sign
     signs.forEach( ({ name, thumbnail, dates, summary, romance, career, stats, traits }) => {
         // each sign will have the following sections of the accordion
