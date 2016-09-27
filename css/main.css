@@ -1,20 +1,21 @@
-body {
-    background: #f8f8f8;
+p {
+    color: #066789;
 }
 header {
     text-align: center;
     font-weight: 200 !important;
     font-family: "Times New Roman", Times, serif !important;
+    padding-bottom: 40px;
 }
 header h1 {
     font-size: 70px;
     font-weight: 200;
-    color: #B5651E;
+    color: #02338E;
 }
 header h2 {
     font-size: 40px;
     font-weight: 200;
-    color: rebeccapurple;
+    color: #052658;
 }
 .signHeading {
     display: flex;
@@ -31,10 +32,10 @@ header h2 {
 }
 .headingText h1 {
     font-size: 70px;
-    color: rebeccapurple;
+    color: #02338E;
 }
 .headingText h2 {
-    color: #B5651E;
+    color: #052658;
 }
 .summaryImage {
     width: 250px;
@@ -71,12 +72,26 @@ header h2 {
 }
 .statCategory, .statValue {
     font-weight: bold;
-    color: #B5651E;
+    color: #58331E;
 }
 .statValue {
-    color: #0072C6;
+    color: #066789;
     margin-left: 5px;
 }
 .dates {
     font-style: italic;
+}
+.panel-default>.panel-heading {
+    background: #F0F0F1;
+}
+.panel-title {
+    color: #58331E;
+}
+.nav.nav-tabs {
+    padding: 0 40px;
+}
+@media(max-width: 710px) {
+    .nav.nav-tabs {
+        padding: 0 10px;
+    }
 }
