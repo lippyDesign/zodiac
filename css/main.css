@@ -130,3 +130,16 @@ header h2 {
 .seeThrough {
     opacity: 0.4;
 }
+.signResults h3 , .signResults h4 {
+    padding-top: 0;
+    margin-bottom: 0;
+}
+.signResults h4 {
+    margin-top: 0;
+}
+.signLink {
+    color: lavenderblush;
+    background: transparent;
+    border: 1px solid pink;
+    border-radius: 5px;
+}

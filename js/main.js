@@ -3,7 +3,7 @@ const signs = [
         name: "Aries",
         thumbnail: 'img/aries-main.png',
         icon: '&#9800;',
-        dates: '21 March – 19 April',
+        dates: "March 21 - April 19",
         summary: "As the first sign in the zodiac, the presence of Aries almost always marks the beginning of something energetic and turbulent.They are continuously looking for dynamic, speed and competition. They are always first in everything - from work to social gatherings. Thanks to its ruling planet Mars, Aries is one of the most active zodiac signs. People born under the Aries sign, are meant to emphasize the search for answers to personal and metaphysical questions. This is the biggest feature of this incarnation. Aries is a fire sign, just like Leo and Sagittarius. This means that it is in their nature to take action, sometimes before they think about it well. Their fiery ruler affects their excellent organizational skills, so you'll rarely meet an Aries who doesn't like to finish more things at once, often even before the lunch break! The challenges are increased when they are impatient, aggressive and vent anger on others. Aries rules the head and leads with the head, often literally walking head first, leaning forwards for speed and focus. They are naturally brave and rarely afraid of trial and risk. They possess youthful strength and energy, regardless of age and they perform tasks in record time. By aligning with themselves they could achieve the best results.",
         romance: "Aries is a fire sign that loves to flirt and it is the person who will take the initiative when it comes to romance. When Aries falls in love, they will straight away go and express it to the one with whom they are in love, without even giving it a considerable thought. Aries compatibility with other signs is very complex. Aries in love, may shower liberal affection on their beloved, sometimes even excess affection. They are very passionate, energetic and they love adventures. Aries is a passionate lover - addicted to sex and passion. They can get excited at the mere thought of it. As long as there is a lot of adrenaline and excitement, the relationship with Aries can be strong and long lasting.",
         career: "This is an area where Aries shines brightest. The working environment is the perfect space for the ambicious and creative Aries, who are often driven by the need to be as good as possible. Born leader, Aries will prefer to issue orders, rather than to receive. They have an excellent ability to predict, which allows them to be always one step ahead and to put things in their place. All they need to do is to follow their chosen path. When faced with a challenge, Aries will quickly assess the situation and come to a solution. Competition does not bother him, just encourages him to shine even brighter. They can have great careers as sales agents, dealers, managers, conductors and owners of company. Even though, Aries is wise and can save some money for rainy days, it's not often the case. The reason for this is that Aries enjoys spending money on shopping, gambling and trading. Aries lives in the present and is not focused on the future. Their philosophy is that we should live for the moment. Shortage of money for Aries is rare, because they love to work.",
@@ -59,7 +59,7 @@ const signs = [
         name: "Virgo",
         thumbnail: 'img/virgo-main.png',
         icon: '&#9805;',
-        dates: 'August 23 – September 22',
+        dates: "August 23 - September 22",
         summary: 'Virgos are always paying attention to smallest details and their deep sense of humanity makes them one of the most careful signs of the zodiac. Their methodical approach to life ensures that nothing is left to chance. Virgos are often tender but also very careful. Virgo is an Earth sign, which prefers conservative and organized things, and those dependent on them. People born under the Virgo sign have very organized life, and even if they are very messy, their goals and dreams are put on strictly defined points in their mind. Since Mercury is the ruling planet of Virgo, this sign has a well-developed sense of speech and writing, as well as all other forms of communication. Many Virgos may choose to pursue a career as a writer or journalist.Virgo is often misunderstood, because of the symbolism of the name of this sign. Virgo experiences everything for the first time. Virgos always want to serve and please others, so they often choose to work as caregivers. On the other hand, this zodiac sign sometimes can be very critical and overly concerned.',
         romance: "Virgos need to feel desirable by their partners. They are tactical and methodical, which makes them excellent lovers. Although, they are not inclined to direct statements of love, they will certainly show their feelings in the bedroom. Virgos prefer to have a couple of stable relationships, rather than many partners. They want to feel that they are important and needed in their partner's lives. They are very faithful and dedicated to their partners.",
         career: "Virgos are very practical, analytical and hard-working, so they will always know how to get to the core of the problem. They are very methodical and good at jobs that require good organization. If something is not working as it should, hire a Virgo. When they focus on some task, they will give their best to execute it perfectly. They love books and art. Possible career options for a Virgo include doctor, nurse, psychologist, teacher, writer and critic. Virgos are excellent in spending of money, because they are very careful and they will always try to save as much as possible. They plan all costs in advance and when it comes to buying they are not inclined to spend too much. However, from time to time, they want to buy something nice for themselves.",
@@ -114,7 +114,7 @@ const signs = [
         name: "Aquarius",
         thumbnail: 'img/aquarius-main.png',
         icon: '&#9810;',
-        dates: '21 January – 19 February',
+        dates: 'January 20 - February 18',
         summary: "Aquarius-born are shy and quiet , but on the other hand they can be eccentric and energetic. However, in both cases, they are deep thinkers and highly intellectual people who love helping others. They are able to see without prejudice, on both sides, which makes them people who can easily solve problems. Although they can easily adapt to the energy that surrounds them, Aquarius-born have a deep need to be some time alone and away from everything, in order to restore power. People born under the Aquarius sign, look at the world as a place full of possibilities. Aquarius is an air sign, and as such, uses his mind at every opportunity. If there is no mental stimulation, they are bored and lack a motivation to achieve the best result. The ruling planet of Aquarius, Uranus has a timid, abrupt and sometimes aggressive nature, but it also gives Aquarius visionary quality. They are capable of perceiving the future and they know exactly what they want to be doing five or ten years from now. Uranus also gave them the power of quick and easy transformation, so they are known as thinkers, progressives and humanists. They feel good in a group or a community, so they constantly strive to be surrounded by other people. The biggest problem for Aquarius-born is the feeling that they are limited or constrained. Because of the desire for freedom and equality for all, they will always strive to ensure freedom of speech and movement. Aquarius-born have a reputation for being cold and insensitive persons, but this is just their defence mechanism against premature intimacy. They need to learn to trust others and express their emotions in a healthy way.",
         romance: "Intellectual stimulation is by far the greatest aphrodisiac for Aquarius. There's nothing that can attract an Aquarius more than an interesting conversation with a person. Openness, communication, imagination and willingness to risk are the qualities that fit well in the perspective of life of this zodiac sign. Their compatibility with other signs can be complex, Integrity and honesty are essential for anyone who wants a long-term relationship with this dynamic person. In love, they are loyal, committed and not at all possessive - they give independence to their partners and consider them as equals.",
         career: "Aquarius-born bring enthusiasm to the job and have a remarkable ability of exploitation of their imagination for business purposes. Career which enables a development and demonstration of the concept will suit this zodiac sign. Their high intellect combined with their willingness to share their talents, inspires many who work in their environment. Aquarius is a visionary type who likes to engage in activities that aim to make humanity better. When it comes to money, this zodiac sign has a talent to maintain a balance between spending and saving money. Most people born under the sign of Aquarius are well adapted to their feel for style and they are not afraid to show it. It is not uncommon to see an Aquarius boldly dressed in brightly colored suits. Careers such as acting, writing, teaching, photography or piloting, are suitable for this sign. The best environment for them is one that gives them the freedom to solve the problem without strict guidelines. Aquarius is an unconventional type and if given the opportunity to express their talent, can achieve remarkable success.",
@@ -132,7 +132,52 @@ const signs = [
         stats: [{'Element': 'Water'}, {'Quality': 'Mutable'}, {'Color': 'Mauve, Lilac, Purple, Violet, Sea green'}, {'Day': 'Thursday, Monday'}, {'Ruler': 'Neptune'}, {'Greatest Overall Compatibility': 'Cancer, Scorpio'}, {'Best for Marriage and Partnerships': 'Virgo'}, {'Lucky Numbers': '3, 7, 12, 16, 21, 25, 30, 34, 43, 52'}, ],
         traits: [{"Strengths": "Compassionate, artistic, intuitive, gentle, wise, musical"}, {"Weaknesses": "Fearful, overly trusting, sad, desire to escape reality, can be a victim or a martyr"}, {'Pisces likes': 'Being alone, sleeping, music, romance, visual media, swimming, spiritual themes'}, {'Pisces dislikes': 'Know-it-all, being criticized, the past coming back to haunt, cruelty of any kind'}]
     },
-]
+];
+// establish calendar var
+const months = [
+    {month: 'Select month', numDays: 0},
+    {month: 'January', numDays: 31},
+    {month: 'February', numDays: 29},
+    {month: 'March', numDays: 31},
+    {month: 'April', numDays: 30},
+    {month: 'May', numDays: 31},
+    {month: 'June', numDays: 30},
+    {month: 'July', numDays: 31},
+    {month: 'August', numDays: 31},
+    {month: 'September', numDays: 30},
+    {month: 'October', numDays: 31},
+    {month: 'November', numDays: 30},
+    {month: 'December', numDays: 31},
+];
+// get all dates for every sign and add them the sign's respective objects
+signs.forEach( sign => {
+    //destructure needed properties
+    let {name, dates} = sign;
+    // split the date string into first and last element of array
+    let datesArray = dates.split(" - ");
+    const firstAndLast = dates.split(" ");
+    // find out how many days are in the month
+    let neededMonthStart = months.find( ({month}) => month === firstAndLast[0]);
+    let neededMonthFinish = months.find( ({month}) => month === firstAndLast[3]);
+    // find on which day of the Month the sign begins and on which day of the month the sign ends
+    const startsOn = Number(firstAndLast[1])
+    const endsOn = Number(firstAndLast[4])
+    // get needed days in the starting month
+    for (let i = startsOn + 1; i <= neededMonthStart.numDays; i++) {
+        datesArray.push(`${neededMonthStart.month} ${i}`)
+    }
+    // get needed days in the ending month
+    for (let i = 1; i < endsOn; i++) {
+        datesArray.push(`${neededMonthFinish.month} ${i}`)
+    }
+    // add the days to their respective objects
+    sign.allDates = datesArray;
+})
+function getUserToSign(sign){
+        console.log(sign)
+        console.log(this)
+        $('#Libra').tab('show')
+    }
 $(document).ready(function() {
     // Create a tab for home button
     $('.nav').append(`<li class="active"><a data-toggle='tab' href='#home'>Home <i class="fa fa-home" aria-hidden="true"></i></a></li>`);
@@ -143,6 +188,7 @@ $(document).ready(function() {
     // make all navigation tabs work
     $('.nav-tabs a').click(function (e) {
         e.preventDefault()
+        console.log(this)
         $(this).tab('show')
     })
     // create home page
@@ -154,7 +200,7 @@ $(document).ready(function() {
                 <h3>Don't know your zodiac sign?</h3>
                 <h4>Enter your birthday bellow<h4>
                 <div class="birthdaySelector">
-                    <form class="col-sm-6 col-sm-offset-3">
+                    <form class="col-sm-6 col-sm-offset-3 zodiacForm">
                         <div class="form-group col-xs-6">
                             <label for="month">Month:</label>
                             <select class="form-control monthSelector" id="month"></select>
@@ -164,6 +210,10 @@ $(document).ready(function() {
                             <select class="form-control daySelector disabled" id="day"></select>
                         </div>
                         <button class="col-xs-10 col-xs-offset-1 btn btn-success seeThrough" id="birthdayButton">Submit</button>
+                        <div class="col-xs-12 signResults">
+                            <h3 class="zodiacResult"></h3><br>
+                            <h4 class="zodiacResultDates"></h4>
+                        <div>
                     </form>
                 </div>
             </div>
@@ -173,22 +223,6 @@ $(document).ready(function() {
     $( "#day" ).prop( "disabled", true );
     // disable the birthday submit button for now
     $('.birthdayButton').prop('disabled', true);
-    // establish calendar var
-    const months = [
-        {month: 'Select month', numDays: 0},
-        {month: 'January', numDays: 31},
-        {month: 'February', numDays: 29},
-        {month: 'March', numDays: 31},
-        {month: 'April', numDays: 30},
-        {month: 'May', numDays: 31},
-        {month: 'June', numDays: 30},
-        {month: 'July', numDays: 31},
-        {month: 'August', numDays: 31},
-        {month: 'September', numDays: 30},
-        {month: 'October', numDays: 31},
-        {month: 'November', numDays: 30},
-        {month: 'December', numDays: 31},
-    ]
     // add the birthday months and days to the month and day selectors on the home page
     months.forEach( ({month}) => {
         $('#month').append(`<option>${month}</option>`)
@@ -228,6 +262,21 @@ $(document).ready(function() {
             $("#birthdayButton").addClass("seeThrough");
         }
     })
+    // on form submit get the user's zodiac sign
+    $(".zodiacForm").submit(function(e) {
+        e.preventDefault();
+        // get the values of the day and the month from the inputs
+        const day = document.getElementById('day').value;
+        const month = document.getElementById('month').value;
+        // Combine the day and month into the needed format
+        const userBirthday = `${month} ${day}`;
+        // get the user sign
+        const userSign = signs.find( ({allDates}) => allDates.some( date => date  === userBirthday) );
+        // display user's sign
+        $('.zodiacResult').empty().append(`Your zodiac sign is <button class="signLink" onclick="getUserToSign(${userSign.name})">${userSign.name}</button>`);
+        // display user's sign date range
+        $('.zodiacResultDates').empty().append(userSign.dates);
+    });
     // distracture the needed propertied for each sign
     signs.forEach( ({ name, thumbnail, dates, summary, romance, career, stats, traits }) => {
         // each sign will have the following sections of the accordion
