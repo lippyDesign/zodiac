@@ -80,7 +80,7 @@ header h2 {
     background: #F0F0F1;
 }
 .panel-title {
-    color: #02338E;
+    color: #066789;
 }
 .nav.nav-tabs {
     padding: 0 40px;
@@ -113,19 +113,20 @@ header h2 {
     }
 }
 .zodiacFinder {
-    background: #066789;
-    height: 500px;
+    background: #47251B;
+    height: 470px;
+    margin-top: -30px;
 }
-.zodiacFinder h3, h4 {
+.zodiacFinder h3, .zodiacFinder h4, .bornToday h2, .bornToday h3 {
     color: #F0F0F1;
     font-weight: 200;
     
 }
-.zodiacFinder h3 {
-    padding-top: 40px;
+.zodiacFinder h3, .bornToday h2 {
+    padding-top: 90px;
 }
 .zodiacFinder h4 {
-    padding-bottom: 40px;
+    padding-bottom: 30px;
 }
 .seeThrough {
     opacity: 0.4;
@@ -142,4 +143,13 @@ header h2 {
     background: transparent;
     border: 1px solid pink;
     border-radius: 5px;
+}
+.links {
+    cursor: pointer;
+}
+.bornToday {
+    padding: 20px;
+    background: #066789;
+    height: 470px;
+    color: white;
 }
